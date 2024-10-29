@@ -3,7 +3,7 @@ import React, { useState }from "react";
 
 const TrafficLigt = () => {
 
-    const[on, setOn]=useState("red")
+    const[on, setOn]=useState("")
 
     const changeColor = (color) =>{
         setOn(color)
